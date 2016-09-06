@@ -3,7 +3,7 @@ public class Irp2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-System.out.println("Successful");
+System.out.println("Successful change in fork");
 	}
 
 }
