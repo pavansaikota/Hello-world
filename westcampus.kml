@@ -27,7 +27,7 @@
         <coordinates>-122.0914977709329,37.42390182131783,0</coordinates>
       </Point>
     </Placemark>
-     <Placemark>
+	 <Placemark>
       <name>my Campus 1</name>
       <styleUrl>#west_campus_style</styleUrl>
       <ExtendedData>
