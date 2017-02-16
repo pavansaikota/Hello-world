@@ -15,7 +15,6 @@
     </Style>
     <Placemark>
       <name>Ongole</name>
-      <styleUrl>#west_campus_style</styleUrl>
       <description>hometown</description>
       <Point>
         <coordinates>15.5057, 80.0499,0</coordinates>
