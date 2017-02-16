@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>KmlFile</name>
+    <Style id="west_campus_style">
+      <IconStyle>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png
+          </href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text>$[video]</text>
+      </BalloonStyle>
+    </Style>
+	<Style id="style_1">
+      <IconStyle>
+        <Icon>
+          <href>https://github.com/pavansaikota/PavanIRP/raw/master/icon_1.png
+          </href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+	  <bgColor>FFFF00</bgColor> 
+        <text>$[video]</text>
+      </BalloonStyle>
+    </Style>
+	<Style id="style_2">
+      <IconStyle>
+        <Icon>
+          <href>https://github.com/pavansaikota/PavanIRP/raw/master/icon_2.png
+          </href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+	  <bgColor>FFFF00</bgColor> 
+        <text>$[video]</text>
+      </BalloonStyle>
+    </Style>
+    <Placemark>
+      <name>campus</name>
+      <styleUrl>#west_campus_style</styleUrl>
+      <ExtendedData>
+        <Data name="video">
+          <value><![CDATA[<iframe width="480" height="360"
+            src="https://www.youtube.com/embed/ZE8ODPL2VPI" frameborder="0"
+            allowfullscreen></iframe><br><br>]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-122.0914977709329,37.42390182131783,0</coordinates>
+      </Point>
+    </Placemark>
+	 <Placemark>
+      <name>my Campus 1</name>
+      <styleUrl>#style_1</styleUrl>
+	  <description>oooof</description>
+      <Point>
+        <coordinates>-122,37.42390182131783,0</coordinates>
+      </Point>
+    </Placemark>
+     <Placemark>
+      <name>my campus 2</name>
+      <styleUrl>#west_campus_style</styleUrl>
+      <ExtendedData>
+        <Data name="video">
+          <value><![CDATA[<iframe width="480" height="360"
+            src="https://www.youtube.com/embed/ZE8ODPL2VPI" frameborder="0"
+            allowfullscreen></iframe><br><br>]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-122,36.42390182131783,0</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+      <name>my campus 3</name>
+      <styleUrl>#style_1</styleUrl>
+      <ExtendedData>
+        <Data name="video">
+          <value><![CDATA[<iframe width="480" height="360"
+            src="https://www.youtube.com/embed/ZE8ODPL2VPI" frameborder="0"
+            allowfullscreen></iframe><br><br>]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-123,36.42390182131783,0</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+      <name>my Campus 4</name>
+      <styleUrl>#style_1</styleUrl>
+	  <description>oooof</description>
+      <Point>
+        <coordinates>-123,37.42390182131783,0</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+      <name>my Campus 5</name>
+      <styleUrl>#style_2</styleUrl>
+	  <description>ooooh</description>
+      <Point>
+        <coordinates>-121,37.42390182131783,0</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+      <name>my Campus 6</name>
+      <styleUrl>#style_1</styleUrl>
+	  <description>ooook</description>
+      <Point>
+        <coordinates>-122,35.42390182131783,0</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+      <name>my Campus 7</name>
+      <styleUrl>#style_2</styleUrl>
+	  <description>ooool</description>
+      <Point>
+        <coordinates>-122,38.42390182131783,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
