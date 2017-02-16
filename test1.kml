@@ -67,9 +67,8 @@
       <styleUrl>#west_campus_style</styleUrl>
       <ExtendedData>
         <Data name="video">
-          <value><![CDATA[<iframe width="480" height="360"
-            src="https://www.youtube.com/embed/ZE8ODPL2VPI" frameborder="0"
-            allowfullscreen></iframe><br><br>]]></value>
+          <value><![CDATA[<img width="480" height="360"
+            src="https://github.com/pavansaikota/PavanIRP/raw/master/icon_2.png"/><br><br>]]></value>
         </Data>
       </ExtendedData>
       <Point>
