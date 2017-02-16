@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>KmlFile</name>
+    <Style id="west_campus_style">
+      <IconStyle>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png
+          </href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text>$[video]</text>
+      </BalloonStyle>
+    </Style>
+	<Style id="style_1">
+      <IconStyle>
+        <Icon>
+          <href>https://www.google.nl/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwi1xfrBhZTSAhVhJcAKHf0QA3YQjRwIBw&url=http%3A%2F%2Ficongal.com%2Fgallery%2Ficon%2F106542%2F128%2Fmap_marker_bubble_azure_google_marker&psig=AFQjCNGqpHc8R6hUGI-fDDLaFIOoRbXOyw&ust=1487314790113575
+          </href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+	  <bgColor>#FFFF00</bgColor>            <!-- kml:color -->
+  <textColor>	#008000</textColor>        <!-- kml:color -->
+        <text>$[video]</text>
+      </BalloonStyle>
+    </Style>
+	<Style id="style_2">
+      <IconStyle>
+        <Icon>
+          <href>https://github.com/pavansaikota/PavanIRP/blob/master/icon_2.png
+          </href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+	  <bgColor>	#008000</bgColor>            <!-- kml:color -->
+      <textColor>#FFFF00</textColor>        <!-- kml:color -->
+        <text>$[video]</text>
+      </BalloonStyle>
+    </Style>
+    <Placemark>
+      <name>CAT</name>
+      <styleUrl>#west_campus_style</styleUrl>
+      <ExtendedData>
+        <Data name="video">
+          <value><![CDATA[<img src="https://www.google.nl/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiD7qyShJTSAhVKGsAKHcx7B5QQjRwIBw&url=https%3A%2F%2Fwww.pinterest.com%2Fexplore%2Fcats%2F&psig=AFQjCNEgtVQDGKUDXT_tnpKpaxBk1hDpCA&ust=1487314421023498" style="width:304px;height:228px;">]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-122.0914977709329,37.42390182131783,0</coordinates>
+      </Point>
+    </Placemark>
+	 <Placemark>
+      <name>my Campus 1</name>
+      <styleUrl>#style_2</styleUrl>
+      <ExtendedData>
+        <Data name="video">
+          <value><![CDATA[<iframe width="480" height="360"
+            src="https://www.youtube.com/embed/ZE8ODPL2VPI" frameborder="0"
+            allowfullscreen></iframe><br><br>]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-122,37.42390182131783,0</coordinates>
+      </Point>
+    </Placemark>
+     <Placemark>
+      <name>my campus 2</name>
+      <styleUrl>#west_campus_style</styleUrl>
+      <ExtendedData>
+        <Data name="video">
+          <value><![CDATA[<iframe width="480" height="360"
+            src="https://www.youtube.com/embed/ZE8ODPL2VPI" frameborder="0"
+            allowfullscreen></iframe><br><br>]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-122,36.42390182131783,0</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+      <name>my campus 3</name>
+      <styleUrl>#style_1</styleUrl>
+      <ExtendedData>
+        <Data name="video">
+          <value><![CDATA[<iframe width="480" height="360"
+            src="https://www.youtube.com/embed/ZE8ODPL2VPI" frameborder="0"
+            allowfullscreen></iframe><br><br>]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-123,36.42390182131783,0</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+      <name>my campus 4</name>
+      <styleUrl>#style_2</styleUrl>
+      <ExtendedData>
+        <Data name="table">
+          <value><![CDATA[<table><tr><td>hello</td></tr><tr><td>world</td></tr></table>]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-122,37.42390182131783,0</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+      <name>my campus 5</name>
+      <styleUrl>#west_campus_style</styleUrl>
+      <ExtendedData>
+        <Data name="video">
+          <value><![CDATA[<iframe width="480" height="360"
+            src="https://www.youtube.com/embed/ZE8ODPL2VPI" frameborder="0"
+            allowfullscreen></iframe><br><br>]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-121,36.42390182131783,0</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+      <name>my campus 6</name>
+      <styleUrl>#style_1</styleUrl>
+      <ExtendedData>
+        <Data name="text">
+          <value><![CDATA[<h2>Hello World</h2>]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-121,37.42390182131783,0</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+      <name>my campus 7</name>
+      <styleUrl>#style_2</styleUrl>
+      <ExtendedData>
+        <Data name="text">
+          <value><![CDATA[<h1>Hello</h1>]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-122,35.42390182131783,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
