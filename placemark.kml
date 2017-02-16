@@ -16,7 +16,6 @@
     <Placemark>
       <name>Ongole</name>
       <styleUrl>#west_campus_style</styleUrl>
-      <description>HomeTown</description>
       <ExtendedData>
         <Data name="video">
           <value><![CDATA[<iframe width="480" height="360"
